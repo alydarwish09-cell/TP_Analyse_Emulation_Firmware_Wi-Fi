@@ -1,6 +1,6 @@
 # Rapport de TP : Analyse et Sécurisation de Firmware IoT
 
-**Auteur :** Étudiant(e) - IPSSI MSC Cybersécurité
+**Auteur :** Aly DARWISH - IPSSI MSC 26.3 
 **Date :** 01 Avril 2026
 **Sujet :** Analyse statique, Reverse Engineering et Patching d'un firmware D-Link DIR-601
 
