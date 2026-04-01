@@ -88,5 +88,4 @@ $ strings cgibin | grep "/var/"
 ## Conclusion de l'analyse statique
 L'analyse révèle que l'interface d'administration repose sur un binaire centralisé (`cgibin`) qui multiplexe de nombreux scripts CGI (authentification, firmware update, UPnP). L'utilisation conjointe de `strcpy`/`sprintf` et de `lxmldbc_system` (un wrapper autour de `system()`) indique un risque élevé d'exécution de code à distance (RCE) via l'interface web, comme documenté par exemple dans la vulnérabilité CVE-2019-16920.
 
----
-**Auteur :** Manus AI
+
