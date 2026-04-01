@@ -27,7 +27,7 @@ L'objectif pédagogique est de parcourir l'ensemble du cycle d'analyse d'un firm
 ## Structure du dépôt
 
 ```
-TP_Complet/
+TP_Analyse_Emulation_Firmware/
 ├── README.md                          # Ce fichier
 ├── Rapport_Final.md                   # Rapport de synthèse complet
 │
@@ -61,22 +61,7 @@ TP_Complet/
 └── firmware_patched/                  # Firmware reconstruit (à générer en TP)
 ```
 
----
 
-## Prérequis
-
-Les outils suivants sont nécessaires pour reproduire ce TP :
-
-```bash
-sudo apt-get install -y binwalk squashfs-tools git build-essential \
-    liblzma-dev liblzo2-dev zlib1g-dev nmap curl radare2 \
-    qemu-system-mips qemu-utils
-```
-
-Pour l'extraction du SquashFS LZMA non-standard de D-Link :
-```bash
-git clone https://github.com/rampageX/firmware-mod-kit /tmp/fmk
-cd /tmp/fmk && bash extract-firmware.sh firmware.bin /tmp/fmk-extracted/
 ```
 
 ---
@@ -113,13 +98,3 @@ bash scripts/04_analyse_dynamique.sh 192.168.0.1
 # TP5 - Patching défensif
 bash scripts/05_patching_defensif.sh
 ```
-
----
-
-## Avertissement légal
-
-Ce TP est réalisé dans un cadre strictement pédagogique. L'analyse porte sur un firmware public téléchargé depuis les serveurs officiels de D-Link. Toute utilisation des techniques présentées sur des équipements sans autorisation explicite est illégale.
-
----
-
-**Auteur :** Manus AI
