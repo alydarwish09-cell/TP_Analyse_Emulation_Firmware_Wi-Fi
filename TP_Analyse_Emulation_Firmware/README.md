@@ -1,5 +1,7 @@
 # TP Firmware IoT — Jour 2 : Analyse et Sécurisation d'un Firmware Embarqué
 
+Etudiant : Aly DARWISH
+
 ## Présentation du TP
 
 Ce dépôt contient la réalisation complète du TP Firmware Jour 2, portant sur l'analyse de sécurité d'un firmware de routeur Wi-Fi grand public réel. Le firmware étudié est celui du **routeur D-Link DIR-300 REVB**, version `2.15.B01_WW`, un appareil qui a fait l'objet de nombreuses vulnérabilités documentées.
