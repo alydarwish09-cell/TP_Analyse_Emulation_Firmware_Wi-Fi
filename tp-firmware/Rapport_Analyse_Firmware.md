@@ -60,8 +60,3 @@ Pour sécuriser l'appareil, nous avons appliqué les correctifs suivants sur le 
 
 L'analyse a démontré que les firmwares IoT legacy souffrent souvent de vulnérabilités critiques : services non chiffrés (Telnet), comptes par défaut et absence de durcissement système. L'utilisation d'outils comme `binwalk` et `qemu` est indispensable pour auditer ces dispositifs et appliquer des mesures correctives avant déploiement.
 
-## Références
-
-[1] Craig Heffner, "Binwalk: Firmware Analysis Tool", 2010.
-[2] D-Link Support, "DIR-601 Firmware Downloads", legacyfiles.us.dlink.com.
-[3] OWASP, "IoT Security Verification Standard (ISVS)", 2023.
