@@ -64,5 +64,4 @@ L'interface web du routeur D-Link est alors accessible depuis le navigateur de l
 **Observations :**
 L'émulation réussit. Le portail de connexion de l'administration web est affiché. L'analyse réseau montre que le routeur répond aux requêtes ARP et ICMP (ping).
 
----
-**Auteur :** Manus AI
+
