@@ -71,5 +71,4 @@ $ /tmp/fmk/build-firmware.sh /tmp/fmk-extracted/
 ```
 Le nouveau firmware sécurisé sera généré dans le dossier `/tmp/fmk-extracted/fmk/new-firmware.bin` et pourra être flashé sur le routeur.
 
----
-**Auteur :** Manus AI
+
