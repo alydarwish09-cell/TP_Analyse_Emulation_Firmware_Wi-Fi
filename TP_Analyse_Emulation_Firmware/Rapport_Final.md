@@ -1,6 +1,6 @@
 # Rapport d'Analyse et Sécurité Firmware IoT
 **Module : Sécurité IoT - TP Firmware Jour 2**
-**Auteur : Manus AI**
+**Erudiant : Aly DARWISH**
 
 ## 1. Description du firmware analysé et architecture détectée
 Le firmware analysé est celui du routeur grand public **D-Link DIR-300 REVB**, version `2.15.B01_WW`. Ce modèle a été sélectionné pour sa pertinence pédagogique, ayant fait l'objet de plusieurs vulnérabilités documentées au fil des années.
