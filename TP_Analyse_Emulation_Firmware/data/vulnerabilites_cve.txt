@@ -1,0 +1,32 @@
+=== VULNÉRABILITÉS CONNUES - D-Link DIR-300 ===
+
+CVE-2019-16920 (Score CVSS : 9.8 - CRITIQUE)
+Titre : D-Link Multiple Routers - Unauthenticated Remote Code Execution
+Produits affectés : DIR-300, DIR-600, DIR-615, DIR-645, DIR-815, DIR-816, DIR-850L, DIR-890L
+Description : Une vulnérabilité d'exécution de code à distance non authentifiée existe dans
+l'interface de gestion web de plusieurs routeurs D-Link. Un attaquant peut envoyer une requête
+HTTP POST spécialement forgée à l'endpoint /HNAP1/ avec une injection de commandes shell dans
+l'en-tête SOAPAction pour exécuter du code arbitraire avec les privilèges root.
+Référence : https://nvd.nist.gov/vuln/detail/CVE-2019-16920
+
+CVE-2011-4723 (Score CVSS : 5.0 - MOYEN)
+Titre : D-Link DIR-300 - Cleartext Password Storage
+Produits affectés : DIR-300
+Description : Le routeur D-Link DIR-300 stocke les mots de passe en clair, permettant à des
+attaquants dépendant du contexte d'obtenir des informations sensibles via des vecteurs non spécifiés.
+Référence : https://nvd.nist.gov/vuln/detail/CVE-2011-4723
+
+CVE-2013-7389 (Score CVSS : 4.3 - MOYEN)
+Titre : D-Link DIR-300 - Cross-Site Scripting (XSS)
+Produits affectés : DIR-300, DIR-600
+Description : Vulnérabilité XSS dans le paramètre url de la page de redirection de l'interface
+web du routeur, permettant à des attaquants distants d'injecter des scripts arbitraires.
+Référence : https://nvd.nist.gov/vuln/detail/CVE-2013-7389
+
+BACKDOOR TELNET (Non-CVE, découverte lors de ce TP)
+Titre : D-Link DIR-300 REVB - Hardcoded Telnet Backdoor
+Produits affectés : DIR-300 REVB v2.15.B01_WW
+Description : Le script /etc/init0.d/S80telnetd.sh démarre un service Telnet avec des
+identifiants codés en dur (Alphanetworks / wrgn49_dlob_dir300b5) lorsque le routeur est
+dans sa configuration par défaut. Cela offre un accès root direct via le réseau LAN.
+Référence : Analyse statique du firmware (ce TP)

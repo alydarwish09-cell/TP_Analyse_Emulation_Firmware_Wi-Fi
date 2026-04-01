@@ -1,0 +1,19 @@
+--- a/etc/init0.d/S80telnetd.sh	2013-07-12 02:07:02.000000000 +0000
++++ b/etc/init0.d/S80telnetd.sh	2026-04-01 07:08:00.000000000 +0000
+@@ -1,13 +1,5 @@
+ #!/bin/sh
+-echo [$0]: $1 ... > /dev/console
+-is_default=`xmldbc -g /runtime/device/devconfsize`
+-if [ "$1" = "start" ] && [ "$is_default" = "0" ]; then
+-	if [ -f "/usr/sbin/login" ]; then
+-		image_sign=`cat /etc/config/image_sign`
+-		telnetd -l /usr/sbin/login -u Alphanetworks:$image_sign -i br0 &
+-	else
+-		telnetd &
+-	fi
+-else
+-	killall telnetd
+-fi
++# PATCHED: Telnet backdoor disabled for security reasons
++# Original: telnetd -l /usr/sbin/login -u Alphanetworks:$image_sign -i br0 &
++echo '[S80telnetd]: Telnet service disabled (security patch)' > /dev/console
