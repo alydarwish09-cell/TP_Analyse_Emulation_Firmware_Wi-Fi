@@ -106,5 +106,4 @@ if [ "$1" = "start" ] && [ "$is_default" = "0" ]; then
 ### 3. Interface web (`/htdocs/`)
 L'interface web utilise des scripts CGI (`/htdocs/cgibin`) et du PHP embarqué. De nombreux services (HTTP, UPnP, SSDP, HNAP) sont exposés, augmentant considérablement la surface d'attaque.
 
----
-**Auteur :** Manus AI
+
