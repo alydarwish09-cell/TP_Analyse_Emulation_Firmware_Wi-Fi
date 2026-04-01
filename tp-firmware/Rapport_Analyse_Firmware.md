@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Ce TP porte sur l'analyse de sécurité d'un firmware de routeur Wi-Fi réel (D-Link DIR-601, révision B). L'objectif est d'identifier la structure du système, d'extraire le système de fichiers, de rechercher des vulnérabilités potentielles (mots de passe, services non sécurisés) et de proposer des correctifs par le biais du patching.
+Ce TP porte sur l'analyse de sécurité d'un firmware de routeur Wi-Fi (D-Link DIR-601, révision B). L'objectif est d'identifier la structure du système, d'extraire le système de fichiers, de rechercher des vulnérabilités potentielles (mots de passe, services non sécurisés) et de proposer des correctifs par le biais du patching.
 
 ## TP 1 : Analyse Statique avec Binwalk
 
